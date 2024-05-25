@@ -31,6 +31,7 @@ list about what dose this repo contains
 ### PedroLoader
 - progress bar with super start pedro on it
 - ui/src/main/java/com/example/ui/perdo/loadingScreen.kt
+- [pedro_loading.mp4](screen_shots%2Fpedro_loading.mp4)
 
 
 ## license
