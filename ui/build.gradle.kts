@@ -51,6 +51,10 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation("io.coil-kt:coil-compose:2.0.0")
+    implementation(
+        "io.coil-kt:coil-gif:2.1.0"
+    )
     // todo add to gradle catalog
     implementation(project(":dependencies"))
 }

@@ -7,8 +7,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.myapplication.ui.theme.MyApplicationTheme
-import com.example.ui.AnimatedVectorDrawable
-import com.example.ui.PedroProgressBar
+
+import com.example.ui.perdo.LoadingScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MyApplicationTheme {
-                PedroProgressBar()
+                Show()
             }
         }
     }
@@ -26,5 +26,5 @@ class MainActivity : ComponentActivity() {
 @Preview
 @Composable
 fun Show(){
-    AnimatedVectorDrawable()
+    LoadingScreen()
 }
